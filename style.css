@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.app-description {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.app-description h2 {
+    font-size: 2rem;
+    color: #34495E;
+    margin-bottom: 10px;
+}
+
+.app-description p {
+    font-size: 1.2rem;
+    color: #7F8C8D;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.screenshots {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.screenshot-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.screenshot {
+    width: 350px;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.info {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.info h2 {
+    font-size: 2rem;
+    color: #34495E;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1.1rem;
+    color: #7F8C8D;
+    max-width: 700px;
+    margin: 10px auto;
+}
